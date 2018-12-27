@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-react",
+  "version": "1.0.0",
+  "description": "React and ReactNative eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtweaver/eslint-config-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "react",
+    "react-native"
+  ],
+  "author": "J.T. Weaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtweaver/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/jtweaver/eslint-config-react#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
