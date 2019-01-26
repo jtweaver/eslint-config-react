@@ -5,7 +5,6 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/node',
-    './rules/react-a11y',
     './rules/react',
     './rules/strict',
     './rules/style',
@@ -49,6 +48,17 @@ module.exports = {
     'spaced-comment': 0,
     'no-console': 0,
     'no-alert': 0,
-    'linebreak-style': 0
+    'linebreak-style': 0,
+    "react/require-extension": false,
+    "arrow-body-style": 0,
+    "max-len": [
+      "error",
+      140,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false
+      }
+    ]
   }
 };
