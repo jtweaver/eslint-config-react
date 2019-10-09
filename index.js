@@ -49,7 +49,6 @@ module.exports = {
     'no-console': 0,
     'no-alert': 0,
     'linebreak-style': 0,
-    "react/require-extension": false,
     "arrow-body-style": 0,
     "max-len": [
       "error",
